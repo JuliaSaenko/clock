@@ -1,3 +1,3 @@
 window.addEventListener('load', function() {
-  setInterval(startClock, 1000);
+  setInterval(startClock, 0);
 });
