@@ -1,0 +1,42 @@
+.clock {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1000px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.container {
+  display: flex;
+  margin-right: 10px;
+  padding: 30px 20px 0;
+  width: 300px;
+  height: 220px;
+}
+
+.clock__number {
+  margin: 0;
+  width: 130px;
+  height: 190px;
+}
+
+.clock__number:nth-child(2n) {
+  margin-right: 20px;
+}
+
+.clock__dots {
+  margin-top: 25px;
+  width: 44px;
+  height: 138px;
+}
+
+.clock__wrapper {
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 1020px;
+  background: linear-gradient(162deg, rgba(253,241,133,1) 0%, rgba(206,217,29,1) 46%, rgba(73,172,20,1) 92%);
+  border-radius: 10px;
+
+}
